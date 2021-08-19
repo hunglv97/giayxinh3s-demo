@@ -1,0 +1,1053 @@
+@media (min-width:1200px) /* lg*/ {
+    .row_pc {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .container {
+        width: 1200px;
+    }
+
+    .row_10 {
+        margin: 0px -10px;
+    }
+
+    .pdd_10 {
+        padding: 0px 10px;
+    }
+    .row_27 {
+        margin: 0px -27px;
+    }
+
+    .pdd_27 {
+        padding: 0px 27px;
+    }
+    ul.nav-menu.menu li.menu-item.item_parent {
+        float: none !important;
+        display: inline-block;
+    }
+
+    ul.nav-menu.menu {
+        text-align: center;
+    }
+
+    ul.nav-menu.menu li.menu-item.item_parent ul.nav-dropdown.menu li {
+        text-align: left;
+        position: relative;
+    }
+
+    ul.nav-menu.menu li.menu-item.item_parent ul.nav-dropdown.menu li:last-child {
+        border-radius: 0px 0px 4px 4px;
+    }
+
+    ul.nav-menu.menu li.menu-item.item_parent ul.nav-dropdown.menu li:before {
+        content: "";
+        display: inline-block;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: #ed1c24;
+        position: absolute;
+        top: 16px;
+        left: 6px;
+    }
+
+    ul.nav-menu.menu li.menu-item.item_parent {
+        position: relative;
+    }
+
+    ul.nav-menu.menu li.menu-item.item_parent:before {
+        content: "";
+        display: inline-block;
+        width: 2px;
+        height: 12px;
+        background: #fff;
+        position: absolute;
+        top: 15px;
+        right: -2px;
+    }
+
+    ul.nav-menu.menu li.menu-item.item_parent:last-child:before {
+        content: "";
+        display: none;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) /* md*/ {
+    .list_link_hd {
+        float: left !important;
+    }
+
+    .nav-menu > .menu-item > .menu-link {
+        padding: 12px 16px 11px 16px !important;
+    }
+
+    /*.header_home{*/
+    /*margin-top: 70px;*/
+    /*}*/
+    /*---header_mobie---*/
+    .name_com_mb {
+        font-size: 17px;
+    }
+
+    .menu_mb .text-center p {
+        margin-top: 16px;
+    }
+
+    /*---end_header_mobie---*/
+    /*==============header==============*/
+    .hotline_head_top {
+        float: none;
+        padding: 7px 14px 0px 0px !important;
+        border-right: none !important;
+    }
+
+    .creat_login {
+        float: left !important;
+        margin-right: 13px;
+    }
+
+    .support_online_head {
+        border-right: none !important;
+        float: left !important;
+    }
+
+    /*form.form-mail {*/
+    /*width: 435px!important;*/
+    /*}*/
+    form.form-mail.form_header .input-group {
+        width: 300px !important;
+    }
+
+    .kiem_tra_don {
+        float: left !important;
+        padding: 8px 0px 7px 27px !important;
+    }
+
+    .kiem_tra_don a {
+        font-size: 11px !important;
+    }
+
+    .gio_hang a {
+        font-size: 11px !important;
+    }
+
+    .gio_hang {
+        float: left !important;
+        padding: 9px 9px 7px 36px !important;
+    }
+
+    .form-control.form_select {
+        padding: 3px !important;
+        width: 135px !important;
+    }
+
+    form.form_header.form-mail {
+        padding-top: 17px !important;
+        width: 435px !important;
+    }
+
+    /*==============end_header==============*/
+
+
+
+    /*==================article==================*/
+    .bar_kind_of_pro ul li {
+        width: 24% !important;
+        border-bottom: 1px solid #fff;
+    }
+
+    .bar_kind_of_pro ul li a p {
+        font-size: 14px !important;
+    }
+
+    .bar_kind_of_pro ul li a {
+        padding: 5px 6.8px 2px 50px !important;
+    }
+
+    .xem_them {
+        margin-top: 10px !important;
+    }
+
+    .img_pro {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .img_pro img {
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    /*==================end_article==================*/
+
+
+    /*=================footer================*/
+    .slogan_footer {
+        font-size: 15px !important;
+    }
+
+    /*.form_mai_footer .input-group input{*/
+    /*width: 239px!important;*/
+    /*}*/
+    /*.form_mai_footer .input-group .input-group-addon.btn.btn-search-top{*/
+    /*padding: 0px 11px!important;*/
+    /*}*/
+    /*.col_footer_help{*/
+    /*margin: 20px 0px!important;*/
+    /*}*/
+    .andress_footer {
+        font-size: 13px !important;
+        background: url(../img/i_ad_foot.png) no-repeat left top 7px !important;
+    }
+
+    /*.title_col_foot{*/
+    /*margin-bottom: 13px!important;*/
+    /*font-size: 15px!important;*/
+    /*}*/
+    /*=================end_footer================*/
+
+    /*=================detail================*/
+    .btn_show_more_prod {
+        width: 256px !important;
+        font-size: 15px !important;
+    }
+
+    .title_page_dateil {
+        font-size: 21px !important;
+    }
+
+    /*=================enddetail================*/
+
+    /*================detail_prod===================*/
+    .thongtin_sp {
+        margin-top: 56px!important;
+    }
+
+    .info_prod_col_right h2 {
+        margin: 0px 0px 7px 0px!important;
+    }
+    .gia_ban {
+        margin-top: 2px!important;
+        /*font-size: 18px!important;*/
+    }
+    .bought_col_right {
+        margin: 15px 0px 0px 0px!important;
+    }
+    .img_mau li {
+        width: 90px!important;
+        height: 90px!important;
+        margin-right: 4px!important;
+    }
+    .btn_buy {
+        padding: 4px 14px 8px 16px!important;
+        margin-right: 6px!important;
+    }
+    .btn_buy a{
+        padding: 3px 0px 0px 24px!important;
+    }
+    .btn_phone_call{
+        padding: 7px 8px!important;
+    }
+    .btn_phone_call{
+        font-size: 15px!important;
+    }
+    .content_tt_box_info{
+        font-size: 13px!important;
+    }
+    .form_input_phone_num input {
+        width: 290px!important;
+        margin-bottom: 5px!important;
+        margin-right: 16px!important;
+    }
+    .title_list{
+        font-size: 17px!important;
+    }
+    .thongtin_sp.txt_margin{
+        margin-top: 19px!important;
+    }
+    p.size{
+        font-size: 25px!important;
+    }
+    .tab_pill_content .nav-tabs>li>a {
+        font-size: 14px!important;
+        padding: 7px 16px!important;
+    }
+    .tab_pill_content .nav-tabs>li{
+        margin: 0px 11px 0px 0px!important
+    }
+    .tab_pill_content .tab-content {
+        padding: 16px 20px 0px 20px!important;
+    }
+    .slider_product_boot .owl-nav {
+        display: none!important;
+    }
+    /*================end_detail_prod===================*/
+}
+
+@media (min-width:768px) and (max-width:991px) /* sm*/ {
+    .sc_header_menu.sticky-header {
+        position: relative !important;
+    }
+
+    .header_home {
+        margin-top: 70px;
+    }
+
+    /*---header_mobie---*/
+    .name_com_mb {
+        font-size: 17px;
+    }
+
+    .menu_mb .text-center p {
+        margin-top: 16px;
+    }
+
+    /*---end_header_mobie---*/
+    /*==============header==============*/
+    .hotline_head_top {
+        float: none;
+        padding: 7px 14px 0px 0px !important;
+        border-right: none !important;
+    }
+
+    .creat_login {
+        float: left !important;
+        margin-right: 13px;
+    }
+
+    .support_online_head {
+        border-right: none !important;
+        float: left !important;
+    }
+
+    form.form-mail {
+        width: 317px !important;
+    }
+
+    form.form-mail.form_header .input-group {
+        width: 323px !important;
+    }
+
+    .kiem_tra_don {
+        float: left !important;
+    }
+
+    .kiem_tra_don a {
+        font-size: 12px !important;
+    }
+
+    .gio_hang a {
+        font-size: 12px !important;
+    }
+
+    .gio_hang {
+        float: left !important;
+    }
+
+    /*==============end_header==============*/
+
+
+
+    /*==================article==================*/
+    .bar_kind_of_pro ul li {
+        width: 24% !important;
+        border-bottom: 1px solid #fff;
+    }
+
+    .bar_kind_of_pro ul li a p {
+        font-size: 14px !important;
+    }
+
+    .bar_kind_of_pro ul li a {
+        padding: 5px 6.8px 2px 50px !important;
+    }
+
+    .xem_them {
+        margin-top: 10px !important;
+    }
+
+    .img_pro {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .img_pro img {
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    /*==================end_article==================*/
+
+
+    /*=================footer================*/
+    .slogan_footer {
+        font-size: 15px !important;
+    }
+
+    .form_mai_footer .input-group input {
+        width: 239px !important;
+    }
+
+    .form_mai_footer .input-group .input-group-addon.btn.btn-search-top {
+        padding: 0px 11px !important;
+    }
+
+    /*.col_footer_help{*/
+    /*margin: 20px 0px!important;*/
+    /*}*/
+    .andress_footer {
+        font-size: 13px !important;
+        background: url(../img/i_ad_foot.png) no-repeat left top 7px !important;
+    }
+
+    .title_col_foot {
+        margin-bottom: 13px !important;
+        font-size: 15px !important;
+    }
+
+    /*=================end_footer================*/
+
+    /*=================detail================*/
+    .btn_show_more_prod {
+        width: 256px !important;
+        font-size: 15px !important;
+    }
+
+    .title_page_dateil {
+        font-size: 21px !important;
+    }
+
+    /*=================enddetail================*/
+
+    /*================detail_prod===================*/
+    .thongtin_sp {
+        margin-top: 56px!important;
+    }
+
+    .info_prod_col_right h2 {
+        margin: 0px 0px 7px 0px!important;
+        font-size: 19px!important;
+    }
+    .gia_ban {
+        margin-top: 2px!important;
+        /*font-size: 18px!important;*/
+    }
+    .bought_col_right {
+        margin: 15px 0px 0px 0px!important;
+    }
+    .img_mau li {
+        width: 90px!important;
+        height: 90px!important;
+        margin-right: 4px!important;
+    }
+    .btn_buy {
+        padding: 4px 14px 8px 16px!important;
+        margin-right: 6px!important;
+    }
+    .btn_buy a{
+        padding: 3px 0px 0px 24px!important;
+    }
+    .btn_phone_call{
+        padding: 7px 8px!important;
+    }
+    .btn_phone_call{
+        font-size: 15px!important;
+    }
+    .content_tt_box_info{
+        font-size: 13px!important;
+    }
+    .form_input_phone_num input {
+        width: 230px!important;
+        margin-bottom: 5px!important;
+        margin-right: 16px!important;
+    }
+    .thongtin_sp.txt_margin{
+        margin-top: 19px!important;
+    }
+    p.size{
+        font-size: 25px!important;
+    }
+    .tab_pill_content .nav-tabs>li>a {
+        font-size: 14px!important;
+        padding: 7px 16px!important;
+    }
+    .tab_pill_content .nav-tabs>li{
+        margin: 0px 11px 0px 0px!important
+    }
+    .tab_pill_content .tab-content {
+        padding: 16px 20px 0px 20px!important;
+    }
+    .slider_product_boot .owl-nav {
+        display: none!important;
+    }
+    /*================end_detail_prod===================*/
+}
+
+@media (max-width:767px) /* xs*/ {
+    .sc_header_menu.sticky-header {
+        position: relative !important;
+    }
+
+    .header_home {
+        margin-top: 70px;
+    }
+
+    /*---header_mobie---*/
+    .name_com_mb {
+        font-size: 17px;
+    }
+
+    .menu_mb .text-center p {
+        margin-top: 16px;
+    }
+
+    /*---end_header_mobie---*/
+    /*==============header==============*/
+    .hotline_head_top {
+        float: none;
+        padding: 7px 14px 0px 0px !important;
+        border-right: none !important;
+    }
+
+    .creat_login {
+        float: left !important;
+        margin-right: 13px;
+    }
+
+    .support_online_head {
+        border-right: none !important;
+        float: left !important;
+    }
+
+    form.form-mail {
+        width: 317px !important;
+    }
+
+    form.form-mail.form_header .input-group {
+        width: 323px !important;
+    }
+
+    .kiem_tra_don {
+        float: left !important;
+    }
+
+    .kiem_tra_don a {
+        font-size: 12px !important;
+    }
+
+    .gio_hang a {
+        font-size: 12px !important;
+    }
+
+    .gio_hang {
+        float: left !important;
+    }
+
+    /*==============end_header==============*/
+
+
+
+    /*==================article==================*/
+    .bar_kind_of_pro ul li {
+        width: 24% !important;
+        border-bottom: 1px solid #fff;
+    }
+
+    .bar_kind_of_pro ul li a p {
+        font-size: 14px !important;
+    }
+
+    .bar_kind_of_pro ul li a {
+        padding: 5px 6.8px 2px 50px !important;
+    }
+
+    .xem_them {
+        margin-top: 10px !important;
+    }
+
+    .img_pro {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .img_pro img {
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    /*==================end_article==================*/
+
+
+    /*=================footer================*/
+    .slogan_footer {
+        font-size: 15px !important;
+    }
+
+    .form_mai_footer .input-group input {
+        width: 239px !important;
+    }
+
+    .form_mai_footer .input-group .input-group-addon.btn.btn-search-top {
+        padding: 0px 11px !important;
+    }
+
+    .col_footer_help {
+        margin: 20px 0px !important;
+    }
+
+    .andress_footer {
+        font-size: 13px !important;
+        background: url(../img/i_ad_foot.png) no-repeat left top 7px !important;
+    }
+
+    .title_col_foot {
+        margin-bottom: 6px !important;
+    }
+
+    /*=================end_footer================*/
+
+    /*=================detail================*/
+    .btn_show_more_prod {
+        width: 256px !important;
+        font-size: 15px !important;
+    }
+
+    .title_page_dateil {
+        font-size: 19px !important;
+    }
+
+    /*=================enddetail================*/
+
+    /*================detail_prod===================*/
+    .thongtin_sp {
+        margin-top: 56px!important;
+    }
+
+    .info_prod_col_right h2 {
+        margin: 0px 0px 7px 0px!important;
+        font-size: 19px!important;
+    }
+    .gia_ban {
+        margin-top: 2px!important;
+        /*font-size: 18px!important;*/
+    }
+    .bought_col_right {
+        margin: 15px 0px 0px 0px!important;
+    }
+    .img_mau li {
+        width: 90px!important;
+        height: 90px!important;
+        margin-right: 4px!important;
+    }
+    .btn_buy {
+        padding: 4px 14px 8px 16px!important;
+        margin-right: 6px!important;
+    }
+    .btn_buy a{
+        padding: 3px 0px 0px 24px!important;
+    }
+    .btn_phone_call{
+        padding: 7px 8px!important;
+    }
+    .btn_phone_call{
+        font-size: 13px!important;
+    }
+    .time_work {
+        font-size: 13px!important;
+    }
+    .form_input_phone_num input {
+        width: 230px!important;
+        margin-bottom: 5px!important;
+        margin-right: 16px!important;
+    }
+    .thongtin_sp.txt_margin{
+        margin-top: 19px!important;
+    }
+    p.size{
+        font-size: 25px!important;
+    }
+    .tab_pill_content .nav-tabs>li>a {
+        font-size: 14px!important;
+        padding: 7px 16px!important;
+    }
+    .tab_pill_content .nav-tabs>li{
+        margin: 0px 11px 0px 0px!important
+    }
+    .tab_pill_content .tab-content {
+        padding: 16px 20px 0px 20px!important;
+    }
+    .slider_product_boot .owl-nav {
+        display: none!important;
+    }
+    /*================end_detail_prod===================*/
+}
+
+@media (max-width:480px) {
+    .col-480-12 {
+        width: 100% !important;
+    }
+
+    .col-480-6 {
+        width: 50% !important;
+    }
+
+    .hidden-480 {
+        display: none !important;
+    }
+
+    .visible-480 {
+        display: block !important;
+    }
+
+    .header_home {
+        margin-top: 63px;
+    }
+
+    /*---header_mobie---*/
+    .name_com_mb {
+        font-size: 17px;
+    }
+
+    .menu_mb .text-center p {
+        margin-top: 16px;
+    }
+
+    /*---end_header_mobie---*/
+    /*==============header==============*/
+    .hotline_head_top {
+        float: none;
+        padding: 7px 14px 0px 0px !important;
+        border-right: none !important;
+    }
+
+    .creat_login {
+        float: left !important;
+        margin-right: 13px;
+    }
+
+    .support_online_head {
+        border-right: none !important;
+        float: left !important;
+    }
+
+    form.form-mail {
+        width: 317px !important;
+    }
+
+    form.form-mail.form_header .input-group {
+        width: 323px !important;
+    }
+
+    .kiem_tra_don {
+        float: left !important;
+    }
+
+    .kiem_tra_don a {
+        font-size: 12px !important;
+    }
+
+    .gio_hang a {
+        font-size: 12px !important;
+    }
+
+    .gio_hang {
+        float: left !important;
+    }
+
+    /*==============end_header==============*/
+
+
+
+    /*==================article==================*/
+    .bar_kind_of_pro ul li {
+        width: 49% !important;
+        border-bottom: 1px solid #fff;
+    }
+
+    .bar_kind_of_pro ul li a p {
+        font-size: 14px !important;
+    }
+
+    .bar_kind_of_pro ul li a {
+        padding: 5px 6.8px 2px 50px !important;
+    }
+
+    .xem_them {
+        margin-top: 10px !important;
+    }
+
+    .img_pro {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .img_pro img {
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    /*==================end_article==================*/
+
+
+    /*=================footer================*/
+    .slogan_footer {
+        font-size: 15px !important;
+    }
+
+    .form_mai_footer .input-group input {
+        width: 239px !important;
+    }
+
+    .form_mai_footer .input-group .input-group-addon.btn.btn-search-top {
+        padding: 0px 11px !important;
+    }
+
+    .col_footer_help {
+        margin: 20px 0px !important;
+    }
+
+    .andress_footer {
+        font-size: 13px !important;
+        background: url(../img/i_ad_foot.png) no-repeat left top 7px !important;
+    }
+
+    .title_col_foot {
+        margin-bottom: 6px !important;
+    }
+
+    /*=================end_footer================*/
+
+    /*=================detail================*/
+    .btn_show_more_prod {
+        width: 230px !important;
+        font-size: 13px !important;
+    }
+
+    .title_page_dateil {
+        font-size: 18px !important;
+    }
+
+    /*=================enddetail================*/
+
+    /*================detail_prod===================*/
+
+    .link_top_detail ul li a{
+        font-size: 12px!important;
+    }
+    .info_prod_col_right h2 {
+        margin: 17px 0px 7px 0px!important;
+        font-size: 22px!important;
+    }
+    .gia_ban {
+        margin-top: 2px!important;
+        /*font-size: 18px!important;*/
+    }
+    .bought_col_right {
+        margin: 15px 0px 0px 0px!important;
+    }
+    .img_mau li {
+        width: 90px!important;
+        height: 90px!important;
+        margin-right: 4px!important;
+    }
+    .btn_buy {
+        padding: 4px 19px 8px 21px!important;
+        margin-right: 11px!important;
+    }
+    .form_input_phone_num input {
+        width: 230px!important;
+        margin-bottom: 5px!important;
+        margin-right: 16px!important;
+    }
+    .thongtin_sp.txt_margin{
+        margin-top: 19px!important;
+    }
+    p.size{
+        font-size: 25px!important;
+    }
+    .tab_pill_content .nav-tabs>li>a {
+        font-size: 12px!important;
+        padding: 7px 16px!important;
+    }
+    .tab_pill_content .nav-tabs>li{
+        margin: 0px 11px 0px 0px!important
+    }
+    .tab_pill_content .tab-content {
+        padding: 16px 20px 0px 20px!important;
+    }
+    .slider_product_boot .owl-nav {
+        display: none!important;
+    }
+    /*================end_detail_prod===================*/
+}
+
+@media (max-width:320px) {
+    .header_home {
+        margin-top: 63px;
+    }
+
+    /*---header_mobie---*/
+    .name_com_mb {
+        font-size: 17px;
+    }
+
+    .menu_mb .text-center p {
+        margin-top: 16px;
+    }
+
+    /*---end_header_mobie---*/
+    /*==============header==============*/
+    .hotline_head_top {
+        float: none;
+        padding: 7px 14px 0px 0px !important;
+        border-right: none !important;
+    }
+
+    .creat_login {
+        float: none !important;
+    }
+
+    .support_online_head {
+        border-right: none !important;
+        float: none !important;
+    }
+
+    form.form-mail {
+        width: 261px !important;
+    }
+
+    form.form-mail.form_header .input-group {
+        width: 284px !important;
+    }
+
+    .kiem_tra_don {
+        float: left !important;
+    }
+
+    .kiem_tra_don a {
+        font-size: 12px !important;
+    }
+
+    .gio_hang a {
+        font-size: 12px !important;
+    }
+
+    /*==============end_header==============*/
+
+
+
+    /*==================article==================*/
+    .bar_kind_of_pro ul li {
+        width: 100% !important;
+    }
+
+    .bar_kind_of_pro ul li a p {
+        font-size: 14px !important;
+    }
+
+    .bar_kind_of_pro ul li a {
+        padding: 5px 6.8px 2px 50px !important;
+    }
+
+    .xem_them {
+        margin-top: 10px !important;
+    }
+
+    /*==================end_article==================*/
+
+
+    /*=================footer================*/
+    .slogan_footer {
+        font-size: 15px !important;
+    }
+
+    .form_mai_footer .input-group input {
+        width: 183px !important;
+    }
+
+    .form_mai_footer .input-group .input-group-addon.btn.btn-search-top {
+        padding: 0px 11px !important;
+    }
+
+    .col_footer_help {
+        margin: 20px 0px !important;
+    }
+
+    .andress_footer {
+        font-size: 13px !important;
+        background: url(../img/i_ad_foot.png) no-repeat left top 7px !important;
+    }
+
+    /*=================end_footer================*/
+
+    /*=================detail================*/
+    .btn_show_more_prod {
+        width: 230px !important;
+        font-size: 13px !important;
+    }
+
+    .title_page_dateil {
+        font-size: 18px !important;
+    }
+
+    /*=================end_detail================*/
+
+    /*================detail_prod===================*/
+    .link_top_detail ul li{
+        font-size: 12px!important;
+        padding: 10px 5px!important;
+    }
+    .link_top_detail ul li a{
+        font-size: 12px!important;
+    }
+    .info_prod_col_right h2 {
+        margin: 17px 0px 7px 0px!important;
+        font-size: 22px!important;
+    }
+    .gia_ban {
+        margin-top: 2px!important;
+        font-size: 18px!important;
+    }
+    .bought_col_right {
+        margin: 15px 0px 0px 0px!important;
+    }
+    .img_mau li {
+        width: 60px!important;
+        height: 60px!important;
+        margin-right: 4px!important;
+    }
+    .btn_buy {
+        padding: 4px 63px 8px 48px!important;
+         margin-right: 30px!important;
+    }
+    .btn_phone_call {
+        margin-top: 5px!important;
+    }
+    .form_input_phone_num input {
+        width: 230px!important;
+        margin-bottom: 5px!important;
+         margin-right: 0px!important;
+    }
+    .thongtin_sp.txt_margin{
+        margin-top: 25px;
+    }
+    p.size{
+        font-size: 25px!important;
+    }
+    .tab_pill_content .nav-tabs>li>a {
+        font-size: 9px!important;
+        padding: 6px 7px!important;
+    }
+    .tab_pill_content .nav-tabs>li{
+        margin: 0px!important;
+    }
+    .tab_pill_content .tab-content {
+        padding: 16px 10px 0px 10px!important;
+    }
+    .slider_product_boot .owl-nav {
+        display: none!important;
+    }
+    /*================end_detail_prod===================*/
+}
+
